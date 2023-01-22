@@ -6,3 +6,6 @@ Kotlin DL is not recommended to use nowadays because it still has lack features,
 
 # Test
 Send random image of Cat or Dog as multipart through postman or something else
+
+# Note
+[Chek here ](https://github.com/Kotlin/kotlindl/blob/master/docs/importing_keras_model.md) to export model as h5 and json
