@@ -26,7 +26,7 @@ fun Application.configureRouting() {
                 multipart.forEachPart { part ->
                     if (part is PartData.FileItem) {
                         val byteArray = part.streamProvider().readBytes()
-                        val image = buildProperImageSize(byteArray).toFloatArray()
+                        val image = byteArray.buildProperImageSize().toFloatArray()
                         result = KotlinDLHelper.predict(image)
                     }
                 }
