@@ -6,7 +6,6 @@ import org.jetbrains.kotlinx.dl.api.core.loss.Losses
 import org.jetbrains.kotlinx.dl.api.core.metric.Metrics
 import org.jetbrains.kotlinx.dl.api.core.optimizer.Adam
 import org.jetbrains.kotlinx.dl.api.inference.keras.loadWeights
-import org.jetbrains.kotlinx.dl.api.summary.printSummary
 import java.io.File
 
 object KotlinDLHelper {
