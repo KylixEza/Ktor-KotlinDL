@@ -29,4 +29,6 @@ dependencies {
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 
+    //kotlin-dl
+    implementation("org.jetbrains.kotlinx:kotlin-deeplearning-tensorflow:0.5.0")
 }
